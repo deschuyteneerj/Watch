@@ -1,0 +1,31 @@
+
+#outer-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
+}
+
+#outer-grid > div {
+  background-color: limegreen;
+  color: white;
+  font-size: 4vw;
+  padding: 8px;
+}
+
+#inner-grid > div, #inner-grid2 > div{
+  background: lightgreen;
+  padding: 8px;
+}
+
+#inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+#inner-grid2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}

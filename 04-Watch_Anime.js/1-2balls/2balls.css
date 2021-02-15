@@ -1,0 +1,17 @@
+#ball1 {
+    position: absolute;
+    margin: 40px 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #03a9f4;
+}
+
+#ball2 {
+    position: absolute;
+    margin: 80px 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #03a9f4;
+}

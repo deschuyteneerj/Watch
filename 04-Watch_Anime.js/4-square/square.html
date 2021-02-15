@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <title>Square</title>
+</head>
+
+<body>
+    <div style="background-color: purple; height: 100px; width: 100px"></div>
+    <script>
+        anime({
+            targets: "div",
+            translateX: 600,
+            translateY: 600,
+            rotate: [1080],
+            duration: 3000,
+            easing: "easeInOutSine",
+            direction: "alternate", //linear reverse
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
